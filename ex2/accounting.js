@@ -7,6 +7,9 @@ class Account {
     this.accountTotal += amount;
   }
   describe = () => {
-    return this.owner, `Balance: ${this.accountTotal}`;
+    return `${this.owner}, Balance: ${this.accountTotal}`;
   }
 }
+
+// Module exports
+module.exports = Account;
